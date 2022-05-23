@@ -1,0 +1,23 @@
+@import 'config';
+@import './pages/login';
+@import './pages/homePage';
+@import './components/musicPost';
+@import './components/navbar';
+@import './pages/uploadMusicPage';
+@import './pages/profilePage';
+
+#root{
+    overflow-x: hidden;
+}
+body{
+    background:$primary-color;
+    color: set-text-color($primary-color);
+    height: 100vh;
+    font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;
+    line-height:1;
+}
+
+a{
+    color: set-text-color($primary-color);
+    text-decoration:none;
+}
