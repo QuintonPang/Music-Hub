@@ -31,7 +31,7 @@ const ProfilePage = () => {
     },[userId])
   return (
     <div className="profilePage">
-        <Navbar page="profilePage"/>
+        <Navbar active="profilePage"/>
         <div className="avatar">
             <img src={user?.photoURL} alt={user?.displayName} />
         </div>
